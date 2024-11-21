@@ -2,17 +2,17 @@ pipeline {
 	agent any
 	stages{
 	  stage{
-	     steps("Build"){
+	     steps('Build'){
 		echo "HI Harish Build"
 	     }
 	  }
 	  stage{
-	     steps("Integration Test"){
+	     steps('Integration Test'){
 		echo "HI Harish Integration test"
 	     }
 	  }
 	 stage{
-	     steps("Test"){
+	     steps('Test'){
 		echo "HI Harish Test"
 	     }
 	  }	
